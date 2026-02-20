@@ -32,10 +32,10 @@ function Layout({ children }) {
         </div>
       </header>
 
-          {/* Navigation - Simple Horizontal One Row */}
+          {/* Navigation - Better Mobile Padding */}
           <nav className="bg-green-600 text-white sticky top-0 z-50 shadow-lg w-full">
             <div className="w-full overflow-x-auto">
-              <ul className="flex justify-center space-x-4 md:space-x-12 py-3 md:py-4 px-2 md:px-4">
+              <ul className="flex justify-center space-x-3 sm:space-x-6 md:space-x-12 py-3 md:py-4 px-4 sm:px-6 md:px-4">
                 <li>
                   <Link to="/" className="hover:text-yellow-300 transition font-medium text-sm md:text-lg whitespace-nowrap">
                     Home
