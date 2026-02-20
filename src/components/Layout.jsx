@@ -32,43 +32,43 @@ function Layout({ children }) {
         </div>
       </header>
 
-      {/* Navigation - Mobile Responsive with wrapping */}
-      <nav className="bg-green-600 text-white sticky top-0 z-50 shadow-lg w-full">
-        <div className="w-full overflow-x-auto">
-          <ul className="flex flex-wrap justify-center gap-3 sm:gap-4 md:gap-8 lg:gap-16 py-3 md:py-4 px-2 md:px-4 min-w-max sm:min-w-0">
-            <li>
-              <Link to="/" className="hover:text-yellow-300 transition font-medium text-sm sm:text-base md:text-lg whitespace-nowrap">
-                Home
-              </Link>
-            </li>
-            <li>
-              <Link to="/about" className="hover:text-yellow-300 transition font-medium text-sm sm:text-base md:text-lg whitespace-nowrap">
-                About Us
-              </Link>
-            </li>
-            <li>
-              <Link to="/offers" className="hover:text-yellow-300 transition font-medium text-sm sm:text-base md:text-lg whitespace-nowrap">
-                Offers
-              </Link>
-            </li>
-            <li>
-              <Link to="/testimonials" className="hover:text-yellow-300 transition font-medium text-sm sm:text-base md:text-lg whitespace-nowrap">
-                Testimonials
-              </Link>
-            </li>
-            <li>
-              <Link to="/contact" className="hover:text-yellow-300 transition font-medium text-sm sm:text-base md:text-lg whitespace-nowrap">
-                Contact
-              </Link>
-            </li>
-            <li>
-              <Link to="/careers" className="hover:text-yellow-300 transition font-medium text-sm sm:text-base md:text-lg whitespace-nowrap">
-                Careers
-              </Link>
-            </li>
-          </ul>
-        </div>
-      </nav>
+          {/* Navigation - Simple Horizontal One Row */}
+          <nav className="bg-green-600 text-white sticky top-0 z-50 shadow-lg w-full">
+            <div className="w-full overflow-x-auto">
+              <ul className="flex justify-center space-x-4 md:space-x-12 py-3 md:py-4 px-2 md:px-4">
+                <li>
+                  <Link to="/" className="hover:text-yellow-300 transition font-medium text-sm md:text-lg whitespace-nowrap">
+                    Home
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/about" className="hover:text-yellow-300 transition font-medium text-sm md:text-lg whitespace-nowrap">
+                    About Us
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/offers" className="hover:text-yellow-300 transition font-medium text-sm md:text-lg whitespace-nowrap">
+                    Offers
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/testimonials" className="hover:text-yellow-300 transition font-medium text-sm md:text-lg whitespace-nowrap">
+                    Testimonials
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/contact" className="hover:text-yellow-300 transition font-medium text-sm md:text-lg whitespace-nowrap">
+                    Contact
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/careers" className="hover:text-yellow-300 transition font-medium text-sm md:text-lg whitespace-nowrap">
+                    Careers
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </nav>
 
       {/* Page Content */}
       <main>
